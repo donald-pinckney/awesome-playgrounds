@@ -4,7 +4,7 @@
 # Schrödinger's Equation: Harmonic Oscillator System
 Something very important here and in other bound cases is that the all-important potential energy is symmetric about `x = 0`. Accordingly, the probabilities `ψ^2(x)` should be symmetric functions of x. However, this means that some `ψ` will be zero at the origin (odd) while others will have zero slope there (even). We’ll start out looking for a function that is odd.
 
-To do that, we start by defining the potential, `0.5*k*x^2`, that we will use for this section, with `k` set to 1:
+To do that, we start by defining the potential function, `0.5*k*x^2`, that we will use for this section, with `k` set to 1:
 */
 import Foundation
 

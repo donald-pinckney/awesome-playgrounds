@@ -4,12 +4,12 @@
 # Schrödinger's Equation: Finite Well System
 The potential function `V(x)` for the finite well is shown in the figure below. Importantly, the walls of the well are not infinitely high, which actually makes it impossible to completely solve the Schrödinger Equation analytically. Instead, numerical means like this are required.
 
-Once again, we start by defining the potential for the system:
+Once again, we start by defining the potential function for the system:
 */
 import Foundation
 
 let V = { x in
-    return 2.5 * sign(abs(x) - 2.0) + 2.5
+    2.5 * sign(abs(x) - 2.0) + 2.5
 }
 
 /*:
