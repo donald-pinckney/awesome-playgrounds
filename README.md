@@ -9,7 +9,7 @@ As of now all playgrounds take advantage of the newly released multiple pages fe
 ## Playgrounds
 
 * Physics
-	* Quantum Mechanics: Schrödinger.playground (Credit: based on physics curriculum at UC Davis)
+	* Quantum Mechanics: Schrödinger.playground (Credit: based on first-year physics curriculum at UC Davis)
 
 ## Contributions
 
