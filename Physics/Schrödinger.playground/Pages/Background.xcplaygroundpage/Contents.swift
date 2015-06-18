@@ -38,7 +38,9 @@ Now to translate this to pseudo-code, we use the following steps:
 import Foundation
 
 let E = 0.45
-let V = Potentials.HarmonicOscillator
+let V = { x in
+    0.5 * x * x
+}
 
 //: 2. Define `dx`. **Try changing** dx to see how it affects the precision of the solution.
 let dx = 0.01
@@ -54,11 +56,11 @@ for i in 1..<ψ.count - 1 {
     ψ[i+1] = 2.0*ψ[i] - ψ[i-1] - 2.0 * dx * dx * (E - V(x)) * ψ[i]
 }
 
-//: 5. Plot the array (If the plot isn't visible, click the Show Result button directly to the right)
+//: 5. Plot the array (If the plot isn't visible, **click the Show Result button directly to the right**)
 plot(ψ, "Ψ")
 
 /*:
-Now this isn't all of the code necessary to adequately solve the Schödinger Equation, because it only solves for odd solutions, and even excludes the wave function left of `x = 0`. However, it is most of the algorithm, and you should understand how it works, especially step 4, before moving on.
+Now this isn't all of the code necessary to adequately solve the Schödinger Equation, because it only solves for odd solutions, and excludes the wave function left of `x = 0`. However, it is most of the algorithm, and you should understand how it works, especially step 4, before moving on.
 */
 
 //: [Next](@next)
