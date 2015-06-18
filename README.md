@@ -1,5 +1,5 @@
 # awesome-playgrounds
-A collection of awesome Xcode Swift playgrounds, centered around interactive and instructive use in topics such as computer science, math, and physics.
+A collection of awesome Xcode Swift playgrounds, centered around interactive and instructive use in topics such as computer science, math, and physics. Unlike other repos, the purpose of this is **not** to teach Swift through demo playgrounds. Rather, the purpose is to explore what cool things playgrounds can do in any STEM field.
 
 Hopefully these playgrounds can be motivating for what playgrounds can accomplish.
 
