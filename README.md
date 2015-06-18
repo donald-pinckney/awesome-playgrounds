@@ -3,13 +3,10 @@ A collection of awesome Xcode Swift playgrounds, centered around interactive and
 
 Hopefully these playgrounds can be motivating for what playgrounds can accomplish.
 
-## Necessary Developer Tools
-As of now all playgrounds take advantage of the newly released multiple pages feature, and thus require use Xcode 7 beta software.
-
 ## Playgrounds
 
 * Physics
-	* Quantum Mechanics: [Schrödinger.playground](https://github.com/donald-pinckney/awesome-playgrounds/raw/master/Physics/Schrödinger.zip) (Credit: based on first-year physics curriculum at UC Davis)
+	* Quantum Mechanics: [Schrödinger.playground](https://github.com/donald-pinckney/awesome-playgrounds/raw/master/Physics/Schrödinger.zip) (Requires Xcode 7 Beta, credit: based on first-year physics curriculum at UC Davis)
 
 ## Contributions
 
