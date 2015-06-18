@@ -14,10 +14,10 @@ let V = { x in
 
 /*: 
 Next, we simply run the function `solveSchrödinger`, and specify the V we setup, a total energy, and a symmetry, either `Odd` or `Even`.
-Note that `solveSchrödinger` mostly contains the code discussed on the previous page, and a bit extra.
+Note that `solveSchrödinger` mostly contains the code discussed on the previous page, and a bit extra.  In particular, `solveSchrödinger` also plots the potential function, `V`, in **red**, the solution to the Schrödinger Equation, `ψ`, in **blue**, and the total energy E in **green**.
 */
 
-solveSchrödinger(potential: V, energy: 1.49, symmetry: Odd, plotLabel: "Learning to use solveSchrödinger")
+solveSchrödinger(potential: V, energy: 1.49, symmetry: Odd)
 
 /*:
 ## Question 1
@@ -35,7 +35,7 @@ Now, we have just tested an odd function for `E = 1.49`, and see a plot of the *
 Find the four lowest bound-state energies to three significant figures by adjusting the energy and symmetry below. Also, note if the shape of `ψ(x)` is correct: do `ψ(x)` and `ψ''(x)` have opposite signs where `E > V`, and same signs when `E < V`?
 */
 
-solveSchrödinger(potential: V, energy: 1.5, symmetry: Odd, plotLabel: "Plot of ψ")
+solveSchrödinger(potential: V, energy: 1.49, symmetry: Odd)
 
 
 

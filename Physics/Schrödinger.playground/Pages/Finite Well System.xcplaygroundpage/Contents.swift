@@ -17,7 +17,7 @@ let V = { x in
 Find the four lowest bound-state energies to three significant figures by adjusting the energy and symmetry below.
 */
 
-solveSchrödinger(potential: V, energy: 0.2, symmetry: Even, plotLabel: "Plot of ψ")
+solveSchrödinger(potential: V, energy: 0.2, symmetry: Even)
 
 
 

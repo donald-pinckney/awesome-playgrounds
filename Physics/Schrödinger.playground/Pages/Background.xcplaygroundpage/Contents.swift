@@ -40,7 +40,7 @@ import Foundation
 let E = 0.45
 let V = Potentials.HarmonicOscillator
 
-//: 2. Define `dx`. **Try chaning** dx to see how it affects the precision of the solution.
+//: 2. Define `dx`. **Try changing** dx to see how it affects the precision of the solution.
 let dx = 0.01
 
 //: 3. Define an array to hold the values of `ψ`, and setup initial conditions for an odd solution. See [Prelab](Prelab) for why these initial conditions create an odd solution.
@@ -54,7 +54,7 @@ for i in 1..<ψ.count - 1 {
     ψ[i+1] = 2.0*ψ[i] - ψ[i-1] - 2.0 * dx * dx * (E - V(x)) * ψ[i]
 }
 
-//: 5. Plot the array (Make sure the *Assistant Editor* is open)
+//: 5. Plot the array (If the plot isn't visible, click the Show Result button directly to the right)
 plot(ψ, "Ψ")
 
 /*:

@@ -1,10 +1,13 @@
 import Foundation
 import XCPlayground
 
-public func plot<T>(xs: [T], _ label: String) {
-    for x in xs {
-        XCPCaptureValue(label, value: x)
-    }
+public func plot(xs: [Double], _ label: String) -> Figure {
+//    for x in xs {
+//        XCPCaptureValue(label, value: x)
+//    }
+    
+//    let X = Vector()
+    return plot(Vector(0..<xs.count), Vector(values: xs))
 }
 
 public func sign(x: Double) -> Double {
